@@ -1,16 +1,33 @@
 # SDMX 3.1.0 Public Review
 
+## Overview
+
+A draft version of the SDMX 3.1.0 specifications have been prepared by the TWG.
+
+Comments are invited on the changes and improvements proposed. 
+
+Comments may be submitted as GitHub issues using the following link https://github.com/sdmx-twg/sdmx-3_1_0/issues. 
+
+The closing date for comments is 24 Dec 2024. General questions and requests for help should be e-mailed to the TWG twg@sdmx.org.
+
+Please raise all issues and comments in the issues section of this repository
+
+[https://github.com/sdmx-twg/sdmx-3_1_0/issues](https://github.com/sdmx-twg/sdmx-3_1_0/issues)
+
+**The public review will close on December 24th 2024**
+
+
 ## Location
 
 ### Technical Specifications
 
-[Section 1](specifications/SDMX_3-1-0_SECTION_1_DRAFT-1_0.docx) FRAMEWORK FOR SDMX TECHNICAL STANDARDS
+[Section 1](https://github.com/sdmx-twg/sdmx-3_1_0/raw/refs/heads/main/specifications/SDMX_3-1-0_SECTION_1_DRAFT-1_0.docx) FRAMEWORK FOR SDMX TECHNICAL STANDARDS
 
-[Section 2](specifications/SDMX_3-1-0_SECTION_2_DRAFT-1_0.docx) INFORMATION MODEL: UML CONCEPTUAL DESIGN
+[Section 2](https://github.com/sdmx-twg/sdmx-3_1_0/raw/refs/heads/main/specifications/SDMX_3-1-0_SECTION_2_DRAFT-1_0.docx) INFORMATION MODEL: UML CONCEPTUAL DESIGN
 
-[Section 5](specifications/SDMX_3-1-0_SECTION_5_DRAFT-1_0.docx) SDMX REGISTRY SPECIFICATION: LOGICAL FUNCTIONALITY AND LOGICAL INTERFACES
+[Section 5](https://github.com/sdmx-twg/sdmx-3_1_0/raw/refs/heads/main/specifications/SDMX_3-1-0_SECTION_5_DRAFT-1_0.docx) SDMX REGISTRY SPECIFICATION: LOGICAL FUNCTIONALITY AND LOGICAL INTERFACES
 
-[Section 6](specifications/SDMX_3-1-0_SECTION_6_DRAFT-1_0.docx) TECHNICAL NOTES
+[Section 6](https://github.com/sdmx-twg/sdmx-3_1_0/raw/refs/heads/main/specifications/SDMX_3-1-0_SECTION_6_DRAFT-1_0.docx) TECHNICAL NOTES
 
 **Note**  The UML Model has not been updated to reflect the changes, and as such some of the diagrams in the technical specifications are not up to date with the 3.1.0 changes.
  
@@ -22,22 +39,11 @@
 
 [REST API](https://github.com/sdmx-twg/sdmx-rest/tree/develop)
 
-
-## Public Review - Issues and Comments
-
-
-Please raise all issues and comments in the issues section of this repository
-
-[https://github.com/sdmx-twg/sdmx-3_1_0/issues](https://github.com/sdmx-twg/sdmx-3_1_0/issues)
-
-The public review will close on December 24th 2024
-
-
 ## SDMX 3.1.0 Major Changes
 
 SDMX 3.1.0 introduces a new Structure type ‘Dimension Constraint’ to satisfy the use case for a DSD to evolve over time, without breaking existing data collections.  
 
-In satisfying this use case it was decided to simplify the general SDMX Constraint mechanism by reversing the direction of reference – in SDMX 3.1.0 it is the Constrainable (DSD, Dataflow, Provision Agreement, MSD, Metadataflow, Metadata Provision Agreement) that references the Data Constraint – in SDMX 3.0.0 and lower it was the Constraint that referenced the Constrainable.
+In satisfying this use case it is proposed to simplify the general SDMX Constraint mechanism by reversing the direction of reference; In SDMX 3.1.0 it is the Constrainable (DSD, Dataflow, Provision Agreement, MSD, Metadataflow, Metadata Provision Agreement) that references the Data Constraint, whilst in SDMX 3.0.0 and lower it was the Constraint that referenced the Constrainable.
 
 The changes are listed below, along with the Rationale:
 
