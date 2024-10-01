@@ -2,17 +2,13 @@
 
 ## Overview
 
-A draft version of the SDMX 3.1.0 specifications have been prepared by the TWG.
-
-Comments are invited on the changes and improvements proposed. 
-
-Comments may be submitted as GitHub issues using the following link https://github.com/sdmx-twg/sdmx-3_1_0/issues. 
-
-The closing date for comments is 24 Dec 2024. General questions and requests for help should be e-mailed to the TWG twg@sdmx.org.
+A draft version of the SDMX 3.1.0 specifications have been prepared by the TWG.  Comments are invited on the changes and improvements proposed. 
 
 Please raise all issues and comments in the issues section of this repository
 
 [https://github.com/sdmx-twg/sdmx-3_1_0/issues](https://github.com/sdmx-twg/sdmx-3_1_0/issues)
+
+General questions and requests for help should be e-mailed to the TWG twg@sdmx.org.
 
 **The public review will close on December 24th 2024**
 
